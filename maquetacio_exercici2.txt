@@ -1,0 +1,30 @@
+PAGINA WEB
+_______________________________________
+VIEWS	|	FUNCIONS
+--------------------------------
+(TOTES)	|	Barra de navegació amb un logo que porta al index de la pagina i un petit formulari de login.
+	|	Acces a creació de nou usuari client.
+	|	Peu de pagina amb les dades pertinents de la web
+----------------------------------
+index	|	Llista llibres a l'atzar. 
+	|	Permet busqueda de llibres segons el seu títol o utilitzant filtre d'autor o genere.
+	|	Clic en un llibre porta a la visualització en detall del llibre.
+--------------------------------------
+book	|	Visualització del llibre en detall per els usuaris clients.
+	|	Compra del llibre
+----------------------------------------
+book_edition |	Visualització del llibre en detall per els usuaris admins.
+	     |	Edició del llibre o creació d'un de nou.
+-----------------------------------------
+register     | Creació de nou usuari per els clients. Permet accedir al historial de compra.
+_________________________________________		
+
+
+USUARIS
+__________________________________
+TIPUS 	|	 FUNCIONS
+----------------------------------
+admin	|	Creació i edició de llibres.
+-----------------------------------
+client	|	Creació d'usuari, visualització i compra de llibres i access al historial de compra.
+__________________________________

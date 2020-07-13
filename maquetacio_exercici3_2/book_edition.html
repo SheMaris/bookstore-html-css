@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <title>Book Edition</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bookstore.css">
+</head>
+<body>
+
+
+<div class="topnav">
+  <a href="#home">Home</a>
+  <div class="login-container">
+    <form class="no-margin" action="/action_page.php">
+      <input type="text" placeholder="Username" name="username" class="inputNav" id="inputEmail">
+      <input type="password" placeholder="Password" name="psw" class="inputNav" id="inputPass">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<div class="container">
+
+   <h4 class="centered">
+   BOOK
+   </h4>
+    <div class="html-form centered">
+       <form>
+        <!-- Upload image input-->
+          <div>
+            <p style="margin: 0px;">Book cover:</p>
+            <input id="upload" type="file" >
+          </div>
+
+          <div>
+            <input type="text" id="title" placeholder="Enter Title" name="title">
+          </div>
+          <div>
+            <input type="text" id="author" placeholder="Enter Authors" name="author">
+          </div>
+          <div>
+            <textarea placeholder="Enter Description" rows="3" id="shortdescrip" name="shortdescrip"></textarea>
+          </div>
+          <div>
+            <input type="text" id="price" placeholder="Enter Price" name="price">
+          </div>
+          <div>
+            <button type="submit" class="mx-auto btn btn-primary">Submit</button>
+          </div>
+          
+      </form>
+    </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+/*  ==========================================
+    SHOW UPLOADED IMAGE NAME
+* ========================================== */
+var input = document.getElementById( 'upload' );
+var infoArea = document.getElementById( 'upload-label' );
+
+input.addEventListener( 'change', showFileName );
+function showFileName( event ) {
+  var input = event.srcElement;
+  var fileName = input.files[0].name;
+  infoArea.textContent = 'File name: ' + fileName;
+}
+
+</script>

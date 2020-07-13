@@ -1,0 +1,6 @@
+INTRODUCCIO AL PROBLEMA RESUM
+· Visualització de llibres a l'atzar.
+· Busqueda de llibres i filtrar per autor o categoria.
+· Seleccio de llibre i mostrar tota la info pertintent i poder comprarlo.
+· Creació i modificació de llibres.
+· Registre de compra.

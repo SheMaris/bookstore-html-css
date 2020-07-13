@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bookstore.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#home">Home</a>
+  <div class="login-container">
+    <form class="no-margin" action="/action_page.php">
+      <input type="text" placeholder="Username" name="username" class="inputNav" id="inputEmail">
+      <input type="password" placeholder="Password" name="psw" class="inputNav" id="inputPass">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+<h4 class="centered"> Register </h4>
+<div class="centered html-form">
+
+<form action="/action_page.php">
+  <div>
+    <span>*</span><label for="uemail">Email:</label>
+    <input type="text" id="uemail" placeholder="Enter email" name="uemail" required>
+    
+  </div>
+  <div>
+    <span>*</span><label for="pwd">Password:</label>
+    <input type="password" id="pwd" placeholder="Enter password" name="pswd" required>
+    <small> Must contain 6 to 20 characters with lowercase and at least one number.</small>
+  </div>
+ <div>
+    <span>*</span><label for="pwd2">Repeat password:</label>
+    <input type="password" id="pwd2" placeholder="Repeat password" name="pswd2" required>
+    
+  </div>
+  <div>
+    <label>
+      <span>*</span><input type="checkbox" name="remember" required> I agree on TERMS.
+      
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+  <small>(*) Obligatory fields</small>
+</form>
+  
+</div>
+
+</body>
+</html>
